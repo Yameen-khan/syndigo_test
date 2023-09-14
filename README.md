@@ -5,6 +5,10 @@
 scrapy crawl target -a url=https://www.target.com/p/-/A-79344798
 
 
+## Screenshot and sample data is present:
+
+--project_name/screenshot&sampleJSON/
+
 ## If you want the output in JSON file then put these lines before return clean_data
 
 with open('output.json', 'w', encoding='utf-8') as json_file:
